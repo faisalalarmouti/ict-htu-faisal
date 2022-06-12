@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis:400,700");
+
+* {
+   margin: 0px;
+   padding: 0px;
+   font-family: dosis;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+
+.header {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    padding-top: 20px;
+    top: 0;
+    background-color: whitesmoke;
+}
+
+.header > div {
+    justify-content: center;
+    place-items: center;
+
+}
+
+.logo{
+    font-size: 56px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-variant: all-petite-caps;
+    display: flex;
+
+}
+
+
+
+.menu{
+    flex: 40%;
+    display: inherit;
+    font-size: 30px;
+}
+
+
+
+.menu-li {
+    display: inline-block;
+    margin-right: 5px;
+
+}
+
+
+.button{
+    border: 1px solid;
+    text-align: center;
+    width: 180px;
+    margin-right: 48px;
+    position: inherit;
+    right: 0px;
+    font-size: 30px;
+    padding: 7px;
+}
+
+.container{
+    display: flex;
+    position: absolute;
+    flex-flow: wrap;
+    place-content: center;
+    top: 90px;
+    background-color: #9e89b8;
+    background-image: url("city.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+    background-blend-mode: overlay;
+    height: 100%;
+    width: 100%;
+}
+
+
+.side-text{
+    width: 700px;
+    right: 300px;
+    position: relative;
+    color: white;
+    font-size: 30px;
+}
+
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    padding: 20px 50px 40px 10px;
+    bottom: 0px;
+    background-color: whitesmoke;
+}
+
+.info{
+    font-size: 30px;
+    margin-left: 36px;
+}
+.socail{
+    right: 0;
+    display: inherit;
+    position: inherit;
+    font-size: 35px;
+    margin-right: 40px;
+
+}
+
+.social-item{
+    margin-right: 5px;
+
+}
